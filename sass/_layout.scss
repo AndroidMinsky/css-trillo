@@ -3,15 +3,19 @@
     margin: 8rem auto;
     background: var(--color-grey-light-2);
     box-shadow: 0 2rem 6rem rgba($color: #000000, $alpha: .3);
-    border-radius: 5px;
 
     min-height: 50rem;
 }
 
 .header {
+    font-size: 1.4rem;
     height: 7rem;
     background: #fff;
     border-bottom: var(--color-grey-light-1);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .content {
@@ -20,10 +24,12 @@
 
 .sidebar {
     background: var(--color-grey-dark-1);
+
     flex: 0 0 18%;
 }
 
 .hotel-view {
-    background: #fff;
+    background: #ccc;
+
     flex: 1;
 }
