@@ -472,7 +472,9 @@ body {
   margin-right: 7px;
   background-color: var(--color-primary);
   -webkit-mask-image: url(/img/chevron-thin-right.svg);
+          mask-image: url(/img/chevron-thin-right.svg);
   -webkit-mask-size: cover;
+          mask-size: cover;
 }
 
 .btn-inline {
