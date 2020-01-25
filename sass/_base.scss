@@ -14,6 +14,14 @@
     --color-grey-dark-3: #999;
 }
 
+////////////// MEDIA QUERIES: BREAK POINTS //////////////
+
+$bp-largest: 75em; // 1200px (1200/16)
+$bp-large: 68.75em; // 1100px
+$bp-big: 56.25em; // 900px
+$bp-medium: 38.75em; // 620px
+$bp-small: 31.875em; // 510px
+
 * {
     margin: 0;
     padding: 0;
@@ -28,6 +36,10 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%;
+
+    @media only screen and (max-width: $bp-large) {
+        font-size: 50%; // 8px (size required) / 16px (default size) = 50% 
+    }
 }
 
 body {
